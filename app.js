@@ -8,6 +8,10 @@ var t1 = gsap.timeline({
   },
 });
 
+
+
+
+
 t1.from(
   ".b",
   {
@@ -38,6 +42,9 @@ t1.from(
   },
   "-=.5"
 );
+
+
+
 t1.from(
   ".k",
   {
@@ -58,6 +65,8 @@ t1.from(
   },
   "-=.5"
 );
+
+
 
 var t2 = gsap.timeline({
   defaults: {
@@ -420,3 +429,42 @@ gsap.to(".box8", {
   opacity: 1,
   scale: 1.5,
 });
+
+const hamburger = document.querySelector('.hamburger');
+const navs = document.querySelector('.navs');
+const header = document.querySelector('.headertag');
+
+
+
+hamburger.addEventListener('click', () => {
+    navs.classList.toggle('d-none');
+    header.classList.toggle('bgg');
+
+
+})
+
+// gsap.from ('.sun', {
+//     scrollTrigger: {
+//         trigger: '.sun',
+//         start: 'top center',
+//         end: 'bottom center',
+//     },
+
+//     duration: 1,
+//     opacity: 1,
+// })
+
+// gsap.to ('.sun', {
+//     scrollTrigger: {
+//         trigger: '.sun',
+//         start: 'top center',
+//         end: 'bottom center',
+//         scrub: true,
+//         pin: true,
+//     },
+
+//     duration: 1,
+//     opacity: 1,
+// })
+
+
