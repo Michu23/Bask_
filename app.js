@@ -405,6 +405,35 @@ gsap.from(".box8", {
   opacity: 0,
 });
 
+// gsap.from(".fade", {
+//   scrollTrigger: {
+//     trigger: ".fade",
+//     // scrub: true,
+//     markers: true,
+//     start: "-=300",
+//     end: "-=300",
+//   },
+//   x: -100,
+//   duration: 1,
+//   ease: "none",
+//   opacity: 0,
+// });
+
+// gsap.to(".fade", {
+//   scrollTrigger: {
+//     trigger: ".fade",
+//     scrub: true,
+//     start: "+=200",
+//     end: "+=200",
+//   },
+//   duration: 1,
+//   ease: "none",
+//   opacity: 1,
+// });
+
+
+
+
 gsap.to(".box8", {
   scrollTrigger: {
     trigger: ".box8",
