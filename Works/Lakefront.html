@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Work - LakeShore</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style.scss">
+    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -15,7 +14,7 @@
 </head>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js" defer></script>
-<script src="app.js" defer></script>
+<script src="../app.js" defer></script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <body>
@@ -25,10 +24,11 @@
         <!-- <div class="container"> -->
         <div class="headerdiv w-100 ">
             <div class="hdiv2">
-                <img src="L.svg" alt="logo" class="headerlogo icon1 py-3">
-                <img src="L.svg" alt="logo " class="headerlogo2 icon2 py-3">
+                <img src="../L.svg" alt="logo" class="headerlogo icon1 py-3">
+                <img src="../L.svg" alt="logo " class="headerlogo2 icon2 py-3">
                 <div>
-                    <ion-icon name="menu-outline" size="large" class="hamburger  py-2 pt-4 "></ion-icon>
+                    <ion-icon name="menu-outline" size="large" class="hamburger open  py-2 pt-4 "></ion-icon>
+                    <ion-icon name="close-outline" size="large" class="hamburger close d-none py-2 pt-4 "></ion-icon>
                 </div>
             </div>
             <!-- </div>
@@ -39,66 +39,71 @@
             <div class="d-flex justify-content-center w-100">
                 <div class="row w-75  text-left">
                     <div class="col-md-3 d-flex justify-content-start  ">
-                        <div class="cp">
-                            <h6 style="
+                        <a href="../index.html" class="navlink">
+                            <div class="cp">
+                                <h6 style="
                                 line-height: 0;
-                            " class="text-white">Our</h6>
-                            <h2 style="
+                            " class="text-white">01.</h6>
+                                <h3 style="
                                 line-height: 0.9;
                             " class="font__yellow">
-                                Home
-                            </h2>
-                        </div>
+
+                                    Home
+                                </h3>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-3 d-flex justify-content-start  ">
-                        <div class="cp">
-                            <h6 style="
+                        <a href="../Works.html" class="navlink">
+
+                            <div class="cp">
+                                <h6 style="
                                 line-height: 0;
-                            " class="text-white">Our</h6>
-                            <h2 style="
+                            " class="text-white">02.</h6>
+                                <h3 style="
                                 line-height: 0.9;
                             " class="font__yellow">
-                                Works
-                            </h2>
-                        </div>
+                                    Works
+                                </h3>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-3 d-flex justify-content-start  ">
-                        <div class="cp">
-                            <h6 style="
+                        <a href="../People.html" class="navlink">
+
+                            <div class="cp">
+                                <h6 style="
                                 line-height: 0;
-                            " class="text-white">Our</h6>
-                            <h2 style="
+                            " class="text-white">03.</h6>
+                                <h3 style="
                                 line-height: 0.9;
                             " class="font__yellow">
-                                People
-                            </h2>
-                        </div>
+                                    People
+                                </h3>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-3 d-flex justify-content-start  ">
-                        <div class="cp">
-                            <h6 style="
+                        <a href="../Contact.html" class="navlink">
+                            <div class="cp">
+                                <h6 style="
                                 line-height: 0;
-                            " class="text-white">Our</h6>
-                            <h2 style="
+                            " class="text-white">04.</h6>
+                                <h3 style="
                                 line-height: 0.9;
                             " class="font__yellow">
-                                Contacts
-                            </h2>
-                        </div>
+                                    Contacts
+                                </h3>
+                            </div>
+                        </a>
                     </div>
-
-
-
                 </div>
-
             </div>
-
-
         </div>
 </div>
 </header>
     
-    <div class="container-fluid">
+    <div class="container-fluid p-0 m-0">
         <div class="container">
             <hr class="workline pb-3">
             <div class="row ">
@@ -113,22 +118,59 @@
                 <div class="col-12 col-md-6 ">
                     <div class="row">
                         <div class="col-12">
-                            <img src="Images/Work/Urban Farmville Campaign-01.jpg" class="w-100 my-3 cp ">
+                            <img src="../Images/Work/Urban Farmville Campaign-01.jpg" class="w-100 my-3 cp ">
                         </div>
                         <div class="col-12">
-                            <img src="Images/Work/Urban Farmville Campaign-02.jpg" class="w-100 my-3 cp ">
+                            <img src="../Images/Work/Urban Farmville Campaign-02.jpg" class="w-100 my-3 cp ">
                         </div>
                         <div class="col-12">
-                            <img src="Images/Work/Urban Farmville Campaign-03.jpg" class="w-100 my-3 cp ">
+                            <img src="../Images/Work/Urban Farmville Campaign-03.jpg" class="w-100 my-3 cp ">
                         </div>
                         <div class="col-12">
-                            <img src="Images/Work/Urban Farmville Campaign-04.jpg" class="w-100 my-3 cp ">
+                            <img src="../Images/Work/Urban Farmville Campaign-04.jpg" class="w-100 my-3 cp ">
                         </div>
                     </div>
                     <!-- <img src="1.jpeg" class="w-100 "> -->
                 </div>
                 <hr />
             </div>
+            <hr class="workline pb-3">
+            <div class="d-flex justify-content-center move">
+                <div class="d-flex justify-content-between w-100 px-5">
+
+                    <div class="d-flex">
+                        <a href="Zlate.html">
+                            <ion-icon name="arrow-back-outline" size="large" class=" text-white cp">
+                            </ion-icon>
+                        </a>
+                        <h5 class="text-white cp pt-1 pl-3">
+                            <a href="Zlate.html" class="text-white">
+                                Zlate
+                            </a>
+                        </h5>
+
+                    </div>
+                    <div class="d-flex">
+                        <h5 class="text-white cp pt-1 pl-3">
+                            <a href="Lakefront.html" class="text-white">
+                                LakeFront
+
+                            </a>
+                        </h5>
+
+                        <a href="Lakefront.html">
+
+                            <ion-icon name="arrow-forward-outline" size="large" class="right__arrow text-white cp">
+                            </ion-icon>
+                        </a>
+                    </div>
+
+
+                    </a>
+                </div>
+            </div>
+
+            <hr class="workline pb-3">
         </div>
 
     </div>
