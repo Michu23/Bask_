@@ -44,6 +44,15 @@ body {
   font-size: var(--fs-15) !important;
 }
 
+.swirlbg{
+  background: 
+  /* url("") right 100px no-repeat,    */
+  url(Swirl-02.svg) left 10px no-repeat,  
+       /* url("") right 400px no-repeat,    */
+       /* url(Swirl-02.svg) left bottom no-repeat,      */
+       url("") right bottom no-repeat; 
+}
+
 .box {
   width: 100px;
   height: 100px;
@@ -103,14 +112,15 @@ header {
   background-color: var(--black) !important;
   min-height: 13vh;
   position: fixed !important;
-  /* top: 0 !important; */
-  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  top: 0 !important;
+  width: 100% !important;
   display: flex !important;
   justify-content: center !important;
   flex-direction: column !important;
   z-index: 1;
   overflow-y: hidden !important;
-  top: 0 !important;
 }
 
 .headerdiv {
@@ -171,6 +181,10 @@ header img {
 
 .move:hover > h3 {
   font-weight: 575 !important;
+}
+
+.footer{
+  opacity: 0.6;
 }
 
 .move > .right__arrow {
@@ -288,4 +302,14 @@ ion-icon {
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.propic{
+  width: 160px;
+  height: 200px;
+  /* border-radius: 50%; */
+  object-fit: cover;
+  object-position: center;
+  margin-right: 20px;
 }
