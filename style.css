@@ -236,6 +236,12 @@ ion-icon {
   transition: 0.9s !important;
 }
 
+
+.grey{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
 .justimg:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
