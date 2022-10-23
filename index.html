@@ -420,6 +420,11 @@
         </div>
     </div>
     <div class="container">
+        <div class="py-5">
+            <img src="office-work.png" alt="who we are" class="justimg w-100">
+        </div>
+    </div>
+    <div class="container">
         <div class="row">
             <div class="col-12 col-md-6">
                 <img src="whowe.svg" alt="who we are" class="whowe w-75">
@@ -491,9 +496,6 @@
                     <h3 class="pe-5">Idea Centric
                     </h3>
                     <!-- <ion-icon name="arrow-forward-outline" size="large" class="right__arrow"></ion-icon> -->
-
-
-
                 </div>
                 <div class="d-flex justify-content-start">
 
@@ -512,11 +514,11 @@
 </div>
 
 <div class="container-fluid m-0 p-0 ">
-    <div class="container">
+    <!-- <div class="container">
         <div class="py-5">
             <img src="office-work.png" alt="who we are" class="justimg w-100">
         </div>
-    </div>
+    </div> -->
     <div class="container">
         <div class="py-5">
             <div class="row">
@@ -984,13 +986,14 @@
                 data: $("#submit-form").serialize(),
                 method: "post",
                 success: function (response) {
-                    Swal.fire({
-                        position: "top-end",
-                        icon: "success",
-                        title: "Successfully Submitted!",
-                        showConfirmButton: false,
-                        timer: 1500,
-                    });
+                     //Swal.fire({
+                        //    position: "top-end",
+                        //    icon: "success",
+                        //    title: "Successfully Submitted!",
+                        //    showConfirmButton: false,
+                        //    timer: 1500,
+                        //});
+                        Toast("Successfully Submitted!");
                     setTimeout(() => {
                         window.location.reload();
                     }, 2000);
