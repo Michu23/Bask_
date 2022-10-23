@@ -169,6 +169,27 @@
             </div>
         </div>
     </div>
+    <script>
+        var hamburger = document.querySelector(".open");
+        var navs = document.querySelector(".navs");
+        var header = document.querySelector(".headertag");
+        var close = document.querySelector(".close");
+
+        hamburger.addEventListener("click", () => {
+            navs.classList.toggle("d-none");
+            header.classList.toggle("bgg");
+            hamburger.classList.toggle("d-none");
+            close.classList.toggle("d-none");
+        });
+
+        close.addEventListener("click", () => {
+            navs.classList.toggle("d-none");
+            header.classList.toggle("bgg");
+            hamburger.classList.toggle("d-none");
+            close.classList.toggle("d-none");
+        });
+
+    </script>
 </body>
 
 </html>

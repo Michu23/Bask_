@@ -16,6 +16,7 @@
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+<script src="app.js" defer></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js" defer></script>
@@ -65,7 +66,6 @@
                         </div>
                         <div class="col-md-3 d-flex justify-content-start  ">
                             <a href="Work.html" class="navlink">
-
                                 <div class="cp">
                                     <h6 style="
                                     line-height: 0;
@@ -239,7 +239,27 @@
     </div>
     </div>
 
+    <script>
+        var hamburger = document.querySelector(".open");
+        var navs = document.querySelector(".navs");
+        var header = document.querySelector(".headertag");
+        var close = document.querySelector(".close");
 
+        hamburger.addEventListener("click", () => {
+            navs.classList.toggle("d-none");
+            header.classList.toggle("bgg");
+            hamburger.classList.toggle("d-none");
+            close.classList.toggle("d-none");
+        });
+
+        close.addEventListener("click", () => {
+            navs.classList.toggle("d-none");
+            header.classList.toggle("bgg");
+            hamburger.classList.toggle("d-none");
+            close.classList.toggle("d-none");
+        });
+
+    </script>
 </body>
 
 </html>
