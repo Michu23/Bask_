@@ -32,8 +32,10 @@
     <header class="p-0 m-0 rounded-3 headertag pb-3">
         <div class="headerdiv w-100 ">
             <div class="hdiv2">
-                <img src="L.svg" alt="logo" class="headerlogo icon1 py-3">
-                <img src="L.svg" alt="logo " class="headerlogo2 icon2 py-3">
+                <a href="index.html"></a>
+                <img src="L.svg" alt="logo" class="headerlogo icon1 py-3"></a>
+                <a href="index.html">
+                    <img src="L.svg" alt="logo " class="headerlogo2 icon2 py-3"></a>
                 <div>
                     <ion-icon name="menu-outline" size="large" class="hamburger open  py-2 pt-4 "></ion-icon>
                     <ion-icon name="close-outline" size="large" class="hamburger close d-none py-2 pt-4 "></ion-icon>
@@ -813,8 +815,8 @@
                 <div class="row">
                     <div class="col-12">
                         <h5 class="font__yellow">Address</h5>
-                        <p class="font__white">MNR Pride, 1st Floor, 1st Main Road, 1st Cross, 1st Block, Koramangala,
-                            Bengaluru, Karnataka 560034</p>
+                        <p class="font__white">#14, MNR PRIDE, DOMLUR, HAL Old Airport Rd, Bengaluru, Karnataka 560071
+                        </p>
                     </div>
                     <div class="col-12">
                         <h5 class="font__yellow">Email</h5>
@@ -845,24 +847,25 @@
 
             </div>
             <div class="col-md-6 py-5">
-                <form action="https://formspree.io/f/xaylqzqz" method="POST">
+                <form class="submit-form">
                     <div class="row">
                         <div class="col-md-6 pb-3">
                             <h5 class="font__yellow">Name</h5>
-                            <input type="text" name="name" class="form-control" placeholder="Enter your name">
+                            <input type="text" name="name" class="form-control" id="form_name"
+                                placeholder="Enter your name">
                         </div>
                         <div class="col-md-6 pb-3">
                             <h5 class="font__yellow">Email</h5>
-                            <input type="email" name="email" class="form-control" placeholder="Enter your email">
+                            <input type="email" id="form_email" name="email" class="form-control"
+                                placeholder="Enter your email">
                         </div>
                         <div class="col-12">
                             <h5 class="font__yellow">Message</h5>
-                            <textarea name="message" class="form-control" placeholder="Enter your message"></textarea>
+                            <textarea name="message" id="form_message" class="form-control"
+                                placeholder="Enter your message"></textarea>
                         </div>
                         <div class="col-12 d-flex justify-content-center">
-                            <button type="submit" class="btn btn-primary mt-3
-                            
-                            " style="background-color: var(--yellow);">Submit</button>
+                            <input type="submit" class="btn btn-primary mt-3 text-dark bgy outline-0"></input>
                         </div>
                     </div>
                 </form>

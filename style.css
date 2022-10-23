@@ -108,6 +108,10 @@ h1 {
   line-height: 1.5;
 }
 
+.bgy{
+  background-color: #fee600 !important;
+} 
+
 header {
   background-color: var(--black) !important;
   min-height: 13vh;
