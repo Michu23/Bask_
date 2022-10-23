@@ -52,7 +52,7 @@
                             <div class="cp">
                                 <h6 style="
                                 line-height: 0;
-                            " class="text-white">01.</h6>
+                            " class="text-white"></h6>
                                 <h3 style="
                                 line-height: 0.9;
                             " class="font__yellow">
@@ -68,7 +68,7 @@
                             <div class="cp">
                                 <h6 style="
                                 line-height: 0;
-                            " class="text-white">02.</h6>
+                            " class="text-white"></h6>
                                 <h3 style="
                                 line-height: 0.9;
                             " class="font__yellow">
@@ -83,7 +83,7 @@
                             <div class="cp">
                                 <h6 style="
                                 line-height: 0;
-                            " class="text-white">03.</h6>
+                            " class="text-white"></h6>
                                 <h3 style="
                                 line-height: 0.9;
                             " class="font__yellow">
@@ -97,7 +97,7 @@
                             <div class="cp">
                                 <h6 style="
                                 line-height: 0;
-                            " class="text-white">04.</h6>
+                            " class="text-white"></h6>
                                 <h3 style="
                                 line-height: 0.9;
                             " class="font__yellow">
@@ -169,7 +169,7 @@
 
                 </div>
                 <div class="col-md-6 py-5">
-                    <form id="submit-form" method="post">
+                    <form class="submit-form">
                         <div class="row">
                             <div class="col-md-6 pb-3">
                                 <h5 class="font__yellow">Name</h5>
@@ -252,7 +252,7 @@
         }
 
 
-        $("#submit-form").submit((e) => {
+        $(".submit-form").submit((e) => {
             e.preventDefault();
             var name = $("#form_name").val();
             console.log(name);
