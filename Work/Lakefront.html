@@ -107,7 +107,23 @@
     </header>
     <div class="py-4"></div>
 
-    <div class="container-fluid p-0 m-0">
+    <div class="container-fluid d-flex justify-content-center zzz is-blurred zlate1img " style="max-height: 100vh;">
+        <div class="container position-fixed d-flex justify-content-center  zzzz ">
+            <div class="d-flex flex-column ">
+                <div class="text-right closee d-none text-white cp">X</div>
+                <img src="../Images/Work/Lakefront campaign-01.jpg" class=" my-3 cp zzzzz z1 d-none" id="idz1"
+                    style="max-height: 90vh;">
+                <img src="../Images/Work/Lakefront campaign-02.jpg" class=" my-3 cp zzzzz z2 d-none" id="idz2"
+                    style="max-height: 90vh;">
+                <img src="../Images/Work/Lakefront campaign-03.jpg" class=" my-3 cp zzzzz z3 d-none" id="idz3"
+                    style="max-height: 90vh;">
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid p-0 m-0 otherbody">
         <div class="container">
             <hr class="workline pb-3">
             <div class="row swirlbg">
@@ -122,13 +138,13 @@
                 <div class="col-12 col-md-6 ">
                     <div class="row">
                         <div class="col-md-6 col-12">
-                            <img src="../Images/Work/Lakefront campaign-01.jpg" class="w-100 my-3 cp ">
+                            <img src="../Images/Work/Lakefront campaign-01.jpg" class="w-100 my-3 cp zlate1">
                         </div>
                         <div class="col-md-6 col-12">
-                            <img src="../Images/Work/Lakefront campaign-02.jpg" class="w-100 my-3 cp ">
+                            <img src="../Images/Work/Lakefront campaign-02.jpg" class="w-100 my-3 cp zlate2">
                         </div>
                         <div class="col-md-6 col-12">
-                            <img src="../Images/Work/Lakefront campaign-03.jpg" class="w-100 my-3 cp ">
+                            <img src="../Images/Work/Lakefront campaign-03.jpg" class="w-100 my-3 cp zlate3">
                         </div>
                         <!-- <div class="col-md-6 col-12">
                             <img src="../Images/Work/Urban Farmville Campaign-04.jpg" class="w-100 my-3 cp ">
@@ -197,6 +213,52 @@
         </div>
 
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+
+            $(".zlate1").click(function () {
+                $(".zlate1img").show();
+                $(".z1").removeClass("d-none");
+                $(".closee").removeClass("d-none");
+                $(".otherbody").addClass("blurr");
+            });
+
+            $(".zlate2").click(function () {
+                $(".zlate1img").show();
+                $(".z2").removeClass("d-none");
+                $(".closee").removeClass("d-none");
+                $(".otherbody").addClass("blurr");
+            });
+
+            $(".zlate3").click(function () {
+                $(".zlate1img").show();
+                $(".z3").removeClass("d-none");
+                $(".closee").removeClass("d-none");
+                $(".otherbody").addClass("blurr");
+            });
+
+            $(".zlate4").click(function () {
+                $(".zlate1img").show();
+                $(".z4").removeClass("d-none");
+                $(".closee").removeClass("d-none");
+                $(".otherbody").addClass("blurr");
+            });
+
+            $(".closee").click(function () {
+                $(".zlate1img").hide();
+                $(".z1").addClass("d-none");
+                $(".z2").addClass("d-none");
+                $(".z3").addClass("d-none");
+                $(".z4").addClass("d-none");
+                $(".otherbody").removeClass("blurr");
+                $(".closee").addClass("d-none");
+            });
+
+        });
+    </script>
 
 </body>
 

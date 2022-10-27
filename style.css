@@ -44,13 +44,13 @@ body {
   font-size: var(--fs-15) !important;
 }
 
-.swirlbg{
+.swirlbg {
   background: 
-  /* url("") right 100px no-repeat,    */
-  url(Swirl-02.svg) left 10px no-repeat,  
-       /* url("") right 400px no-repeat,    */
-       /* url(Swirl-02.svg) left bottom no-repeat,      */
-       url("") right bottom no-repeat; 
+  /* url("") right 100px no-repeat,    */ url(Swirl-02.svg) left
+      10px no-repeat,
+    /* url("") right 400px no-repeat,    */
+      /* url(Swirl-02.svg) left bottom no-repeat,      */ url("") right bottom
+      no-repeat;
 }
 
 .box {
@@ -108,9 +108,9 @@ h1 {
   line-height: 1.5;
 }
 
-.bgy{
+.bgy {
   background-color: #fee600 !important;
-} 
+}
 
 header {
   background-color: var(--black) !important;
@@ -187,7 +187,7 @@ header img {
   font-weight: 575 !important;
 }
 
-.footer{
+.footer {
   opacity: 0.6;
 }
 
@@ -236,8 +236,7 @@ ion-icon {
   transition: 0.9s !important;
 }
 
-
-.grey{
+.grey {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
@@ -314,8 +313,7 @@ ion-icon {
   }
 }
 
-
-.propic{
+.propic {
   width: 160px;
   height: 200px;
   /* border-radius: 50%; */
@@ -324,14 +322,13 @@ ion-icon {
   margin-right: 20px;
 }
 
-.probg{
-
+.probg {
   min-height: fit-content !important;
   max-width: 800px !important;
   background-size: cover;
 }
 
-.about{
+.about {
   max-width: 800px !important;
 }
 
@@ -340,6 +337,32 @@ ion-icon {
   opacity: 0.8 !important;
 }
 
-.about h2{
+.about h2 {
   font-weight: 700 !important;
+}
+
+.zzz {
+  z-index: 111 !important;
+}
+
+.zzzz{
+  z-index: 222 !important;
+}
+
+.zzzzz{
+  z-index: 333 !important;
+}
+
+.zzzzzz{
+  z-index: 444 !important;
+}
+
+.is-blurred {
+  backdrop-filter: blur(5px) !important;
+  z-index: 999 !important;
+  position: fixed !important;
+}
+
+.blurr {
+  filter: blur(2px);
 }
