@@ -1,9 +1,0 @@
-Fonts used in this design:
-
-Font: Euphoria Script
-Author: TypeSenses
-Url: http://www.fontsquirrel.com/fonts/euphoria-script
-
-Font: Garogier
-Author: Rogier van Dalen
-Url: http://www.fontsquirrel.com/fonts/garogier

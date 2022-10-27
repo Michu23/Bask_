@@ -323,3 +323,23 @@ ion-icon {
   object-position: center;
   margin-right: 20px;
 }
+
+.probg{
+
+  min-height: fit-content !important;
+  max-width: 800px !important;
+  background-size: cover;
+}
+
+.about{
+  max-width: 800px !important;
+}
+
+.about p {
+  line-height: 1.7 !important;
+  opacity: 0.8 !important;
+}
+
+.about h2{
+  font-weight: 700 !important;
+}
