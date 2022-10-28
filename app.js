@@ -205,48 +205,36 @@ var z1 = gsap.timeline({
   },
   scrollTrigger: {
     trigger: ".zzz",
-    start: "+=3100",
-    end: "+=100",
-    scrub: 2,
-    // markers: true,
+    start: "+=500",
+    end: "+=0",
+    scrub: 3,
+    markers: true,
   },
 });
 
-z1.from(
-  ".zlate1",
-  {
-    delay: 0.2,
-    scale: 0,
-    transformOrigin: "center",
-  },
-)
+z1.from(".zlate1", {
+  delay: 0.2,
+  scale: 0.9,
+  transformOrigin: "center",
+});
 
-z1.from(
-  ".zlate2",
-  {
-    delay: 0.2,
-    scale: 0,
-    transformOrigin: "center",
-  },
-)
+z1.from(".zlate2", {
+  delay: 0.2,
+  scale: 0.9,
+  transformOrigin: "center",
+});
 
-z1.from(
-  ".zlate3",
-  {
-    delay: 0.2,
-    scale: 0,
-    transformOrigin: "center",
-  },
-)
+z1.from(".zlate3", {
+  delay: 0.2,
+  scale: 0.9,
+  transformOrigin: "center",
+});
 
-z1.from(
-  ".zlate4",
-  {
-    delay: 0.2,
-    scale: 0,
-    transformOrigin: "center",
-  },
-)
+z1.from(".zlate4", {
+  delay: 0.2,
+  scale: 0.9,
+  transformOrigin: "center",
+});
 
 var l1 = gsap.timeline({
   defaults: {
@@ -263,36 +251,23 @@ var l1 = gsap.timeline({
   },
 });
 
-l1.from(
-  ".lake1",
-  {
-    delay: 0.2,
-    scale: 0,
-    transformOrigin: "center",
-  },
-)
+l1.from(".lake1", {
+  delay: 0.2,
+  scale: 0.9,
+  transformOrigin: "right",
+});
 
-l1.from(
-  ".lake2",
-  {
-    delay: 0.2,
-    scale: 0,
-    transformOrigin: "center",
-  },
-)
+l1.from(".lake2", {
+  delay: 0.2,
+  scale: 0.9,
+  transformOrigin: "right",
+});
 
-l1.from(
-  ".lake3",
-  {
-    delay: 0.2,
-    scale: 0,
-    transformOrigin: "center",
-  },
-)
-
-
-
-
+l1.from(".lake3", {
+  delay: 0.2,
+  scale: 0.9,
+  transformOrigin: "right",
+});
 
 a1.from(
   ".aa1",
