@@ -197,6 +197,103 @@ var a1 = gsap.timeline({
   },
 });
 
+var z1 = gsap.timeline({
+  defaults: {
+    duration: 1,
+    ease: "Back.easeOut.config(2)",
+    opacity: 0,
+  },
+  scrollTrigger: {
+    trigger: ".zzz",
+    start: "+=3100",
+    end: "+=100",
+    scrub: 2,
+    markers: true,
+  },
+});
+
+z1.from(
+  ".zlate1",
+  {
+    delay: 0.2,
+    scale: 0,
+    transformOrigin: "center",
+  },
+)
+
+z1.from(
+  ".zlate2",
+  {
+    delay: 0.2,
+    scale: 0,
+    transformOrigin: "center",
+  },
+)
+
+z1.from(
+  ".zlate3",
+  {
+    delay: 0.2,
+    scale: 0,
+    transformOrigin: "center",
+  },
+)
+
+z1.from(
+  ".zlate4",
+  {
+    delay: 0.2,
+    scale: 0,
+    transformOrigin: "center",
+  },
+)
+
+var l1 = gsap.timeline({
+  defaults: {
+    duration: 1,
+    ease: "Back.easeOut.config(2)",
+    opacity: 0,
+  },
+  scrollTrigger: {
+    trigger: ".lll",
+    start: "+=400",
+    end: "+=100",
+    scrub: 3,
+    markers: true,
+  },
+});
+
+l1.from(
+  ".lake1",
+  {
+    delay: 0.2,
+    scale: 0,
+    transformOrigin: "center",
+  },
+)
+
+l1.from(
+  ".lake2",
+  {
+    delay: 0.2,
+    scale: 0,
+    transformOrigin: "center",
+  },
+)
+
+l1.from(
+  ".lake3",
+  {
+    delay: 0.2,
+    scale: 0,
+    transformOrigin: "center",
+  },
+)
+
+
+
+
+
 a1.from(
   ".aa1",
   {
@@ -542,14 +639,23 @@ gsap.to(".logo2", {
   scale: 0.2,
 });
 
+// gsap.from(".firstt"),{
+//   scrollTrigger: {
+//     trigger: ".w1",
+//     start: "+=500",
+//     end: "top top",
+//     scrub: true,
+//   },
+//   x: -200,
+// }
+
 gsap.from(".firstt", {
   scrollTrigger: {
     trigger: ".w1",
     start: "top top",
-
     scrub: true,
-    // markers: true,
   },
+  // y: 100,
 });
 
 gsap.to(".firstt", {
@@ -567,7 +673,6 @@ gsap.from(".firstt2", {
   scrollTrigger: {
     trigger: ".w2",
     start: "top top",
-
     scrub: true,
     // markers: true,
   },
@@ -588,7 +693,6 @@ gsap.from(".firstt3", {
   scrollTrigger: {
     trigger: ".w3",
     start: "top top",
-
     scrub: true,
     // markers: true,
   },
