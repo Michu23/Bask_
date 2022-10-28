@@ -323,7 +323,7 @@ var b1 = gsap.timeline({
     trigger: ".bbb",
     start: "+=400",
     end: "+=100",
-    scrub: 9,
+    scrub: 8,
     // markers: true,
   },
 });
