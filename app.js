@@ -182,7 +182,7 @@ t2.from(
   "-=.5"
 );
 
-var a1= gsap.timeline({
+var a1 = gsap.timeline({
   defaults: {
     duration: 2,
     ease: "Back.easeOut.config(2)",
@@ -192,21 +192,20 @@ var a1= gsap.timeline({
     trigger: ".aaa",
     start: "+=400",
     end: "+=100",
-    scrub: 2,
+    scrub: 5,
     // markers: true,
   },
 });
 
-
-
-a1.from(".aa1", {
-  delay: 0.2,
-  // scale: 0,
-  x: -10,
-  transformOrigin: "left",
-},
-"-=.5"
-
+a1.from(
+  ".aa1",
+  {
+    delay: 0.2,
+    // scale: 0,
+    x: -10,
+    transformOrigin: "left",
+  },
+  "-=.5"
 );
 
 a1.from(
@@ -242,106 +241,121 @@ a1.from(
   "-=.5"
 );
 
-var b1= gsap.timeline({
+var b1 = gsap.timeline({
   defaults: {
-    duration: 5,
-    // ease: "Back.easeOut.config(2)",
+    duration: 2,
+    ease: "Back.easeOut.config(2)",
     opacity: 0,
   },
   scrollTrigger: {
     trigger: ".bbb",
     start: "+=400",
     end: "+=100",
-    scrub: 3,
+    scrub: 9,
     // markers: true,
   },
 });
 
-b1.from(".b1", {
-  delay: 0.9,
-  // scale: 0,
-  x: -10,
-  transformOrigin: "left",
-},
-"-=.9"
+b1.from(
+  ".b1",
+  {
+    delay: 0.2,
+
+    x: -10,
+    transformOrigin: "left",
+  },
+  "-=.5"
 );
 
-b1.from(".b2", {
-  delay: 0.9,
-  // scale: 0,
-  x: -10,
-  transformOrigin: "left",
-},
-"-=.9"
+b1.from(
+  ".b2",
+  {
+    delay: 0.2,
+
+    // scale: 0,
+    x: -10,
+    transformOrigin: "left",
+  },
+  "-=.5"
 );
 
-b1.from(".b3", {
-  delay: 0.9,
-  // scale: 0,
-  x: -10,
-  transformOrigin: "left",
-},
-"-=.9"
+b1.from(
+  ".b3",
+  {
+    delay: 0.2,
+    // scale: 0,
+    x: -10,
+    transformOrigin: "left",
+  },
+  "-=.5"
 );
 
-b1.from(".b4", {
-  delay: 0.9,
-  // scale: 0,
-  x: -10,
-  transformOrigin: "left",
-},
-"-=.9"
+b1.from(
+  ".b4",
+  {
+    delay: 0.2,
+    // scale: 0,
+    x: -10,
+    transformOrigin: "left",
+  },
+  "-=.5"
 );
 
-b1.from(".b5", {
-  delay: 0.9,
-  // scale: 0,
-  x: -10,
-  transformOrigin: "left",
-},
-"-=.9"
+b1.from(
+  ".b5",
+  {
+    delay: 0.2,
+    // scale: 0,
+    x: -10,
+    transformOrigin: "left",
+  },
+  "-=.5"
 );
 
-b1.from(".b6", {
-  delay: 0.9,
-  // scale: 0,
-  x: -10,
-  transformOrigin: "left",
-},
-"-=.9"
+b1.from(
+  ".b6",
+  {
+    delay: 0.2,
+    // scale: 0,
+    x: -10,
+    transformOrigin: "left",
+  },
+  "-=.5"
 );
 
-b1.from(".b7", {
-  delay: 0.9,
-  // scale: 0,
-  x: -10,
-  transformOrigin: "left",
-},
-"-=.9"
+b1.from(
+  ".b7",
+  {
+    delay: 0.2,
+    // scale: 0,
+    x: -10,
+    transformOrigin: "left",
+  },
+  "-=.5"
 );
 
-b1.from(".b8", {
-  delay: 0.9,
-  // scale: 0,
-  x: -10,
-  transformOrigin: "left",
-},
-"-=.9"
+b1.from(
+  ".b8",
+  {
+    delay: 0.2,
+    // scale: 0,
+    x: -10,
+    transformOrigin: "left",
+  },
+  "-=.5"
 );
 
-b1.from(".b9", {
-  delay: 0.9,
-  // scale: 0,
-  x: -10,
-  transformOrigin: "left",
-},
-"-=.9"
+b1.from(
+  ".b9",
+  {
+    delay: 0.2,
+
+    // scale: 0,
+    x: -10,
+    transformOrigin: "left",
+  },
+  "-=.5"
 );
-
-
-
-
-
 
 t2.from(
   ".boywedo",
@@ -480,7 +494,6 @@ gsap.from(".logo", {
 //     markers: true,
 //   },
 // });
-
 
 // gsap.to(".aa", {
 //   duration: 1,
