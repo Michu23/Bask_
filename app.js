@@ -26,7 +26,7 @@ gsap.registerPlugin(ScrollTrigger);
 //       zIndex: 99999,
 //       transform: "translateX(-50%) translateY(-50%)",
 //     },
-//     onClick: function () {}, 
+//     onClick: function () {},
 //   }).showToast();
 // }
 
@@ -182,6 +182,67 @@ t2.from(
   "-=.5"
 );
 
+var a1= gsap.timeline({
+  defaults: {
+    duration: 2,
+    ease: "Back.easeOut.config(2)",
+    opacity: 0,
+  },
+  scrollTrigger: {
+    trigger: ".aaa",
+    start: "+=400",
+    end: "+=100",
+    scrub: 2,
+    markers: true,
+  },
+});
+
+a1.from(".aa1", {
+  delay: 0.2,
+  // scale: 0,
+  x: -100,
+  transformOrigin: "left",
+},
+"-=.5"
+
+);
+
+a1.from(
+  ".aa2",
+  {
+    delay: 0.2,
+    // scale: 0,
+    x: -100,
+    transformOrigin: "left",
+  },
+  "-=.5"
+);
+
+a1.from(
+  ".aa3",
+  {
+    delay: 0.2,
+    // scale: 0,
+    x: -100,
+    transformOrigin: "left",
+  },
+  "-=.5"
+);
+
+a1.from(
+  ".aa4",
+  {
+    delay: 0.2,
+    // scale: 0,
+    x: -100,
+    transformOrigin: "left",
+  },
+  "-=.5"
+);
+
+
+
+
 t2.from(
   ".boywedo",
   {
@@ -293,7 +354,6 @@ gsap.to(".headerlogo2", {
     trigger: ".second",
     start: "+=500",
     end: "+=350",
-    // markers: true,
   },
   opacity: 1,
   duration: 0,
@@ -305,10 +365,35 @@ gsap.from(".logo", {
   ease: "power4.out",
   scrollTrigger: {
     trigger: ".logodiv",
-    start: "top 80%",
     toggleActions: "play none none reverse",
   },
 });
+
+// gsap.from(".aa", {
+//   opacity: 0,
+//   x: -50,
+//   scrollTrigger: {
+//     trigger: ".aaa",
+//     start: "+=400",
+//     end: "+=100",
+//     scrub: true,
+//     markers: true,
+//   },
+// });
+
+
+// gsap.to(".aa", {
+//   duration: 1,
+//   ease: "power4.out",
+//   opacity: 1,
+//   scrollTrigger: {
+//     trigger: ".aaa",
+//     start: "+=800",
+//     end: "+=100",
+//     toggleActions: "play none none reverse",
+//     markers: true,
+//   },
+// });
 
 gsap.to(".logo", {
   scrollTrigger: {
