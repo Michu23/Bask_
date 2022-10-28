@@ -208,7 +208,7 @@ var z1 = gsap.timeline({
     start: "+=3100",
     end: "+=100",
     scrub: 2,
-    markers: true,
+    // markers: true,
   },
 });
 
@@ -259,7 +259,7 @@ var l1 = gsap.timeline({
     start: "+=400",
     end: "+=100",
     scrub: 3,
-    markers: true,
+    // markers: true,
   },
 });
 
