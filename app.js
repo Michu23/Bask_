@@ -193,7 +193,7 @@ var a1= gsap.timeline({
     start: "+=400",
     end: "+=100",
     scrub: 2,
-    markers: true,
+    // markers: true,
   },
 });
 
@@ -244,7 +244,7 @@ a1.from(
 
 var b1= gsap.timeline({
   defaults: {
-    duration: 2,
+    duration: 3,
     ease: "Back.easeOut.config(2)",
     opacity: 0,
   },
@@ -252,90 +252,90 @@ var b1= gsap.timeline({
     trigger: ".bbb",
     start: "+=400",
     end: "+=100",
-    scrub: 2,
-    markers: true,
+    scrub: 3,
+    // markers: true,
   },
 });
 
 b1.from(".b1", {
-  delay: 0.2,
+  delay: 0.9,
   // scale: 0,
   x: -50,
   transformOrigin: "left",
 },
-"-=.5"
+"-=.9"
 );
 
 b1.from(".b2", {
-  delay: 0.2,
+  delay: 0.9,
   // scale: 0,
   x: -50,
   transformOrigin: "left",
 },
-"-=.5"
+"-=.9"
 );
 
 b1.from(".b3", {
-  delay: 0.2,
+  delay: 0.9,
   // scale: 0,
   x: -50,
   transformOrigin: "left",
 },
-"-=.5"
+"-=.9"
 );
 
 b1.from(".b4", {
-  delay: 0.2,
+  delay: 0.9,
   // scale: 0,
   x: -50,
   transformOrigin: "left",
 },
-"-=.5"
+"-=.9"
 );
 
 b1.from(".b5", {
-  delay: 0.2,
+  delay: 0.9,
   // scale: 0,
   x: -50,
   transformOrigin: "left",
 },
-"-=.5"
+"-=.9"
 );
 
 b1.from(".b6", {
-  delay: 0.2,
+  delay: 0.9,
   // scale: 0,
   x: -50,
   transformOrigin: "left",
 },
-"-=.5"
+"-=.9"
 );
 
 b1.from(".b7", {
-  delay: 0.2,
+  delay: 0.9,
   // scale: 0,
   x: -50,
   transformOrigin: "left",
 },
-"-=.5"
+"-=.9"
 );
 
 b1.from(".b8", {
-  delay: 0.2,
+  delay: 0.9,
   // scale: 0,
   x: -50,
   transformOrigin: "left",
 },
-"-=.5"
+"-=.9"
 );
 
 b1.from(".b9", {
-  delay: 0.2,
+  delay: 0.9,
   // scale: 0,
   x: -50,
   transformOrigin: "left",
 },
-"-=.5"
+"-=.9"
 );
 
 
