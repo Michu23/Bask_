@@ -197,10 +197,12 @@ var a1= gsap.timeline({
   },
 });
 
+
+
 a1.from(".aa1", {
   delay: 0.2,
   // scale: 0,
-  x: -100,
+  x: -50,
   transformOrigin: "left",
 },
 "-=.5"
@@ -212,7 +214,7 @@ a1.from(
   {
     delay: 0.2,
     // scale: 0,
-    x: -100,
+    x: -50,
     transformOrigin: "left",
   },
   "-=.5"
@@ -223,7 +225,7 @@ a1.from(
   {
     delay: 0.2,
     // scale: 0,
-    x: -100,
+    x: -50,
     transformOrigin: "left",
   },
   "-=.5"
@@ -234,11 +236,109 @@ a1.from(
   {
     delay: 0.2,
     // scale: 0,
-    x: -100,
+    x: -50,
     transformOrigin: "left",
   },
   "-=.5"
 );
+
+var b1= gsap.timeline({
+  defaults: {
+    duration: 2,
+    ease: "Back.easeOut.config(2)",
+    opacity: 0,
+  },
+  scrollTrigger: {
+    trigger: ".bbb",
+    start: "+=400",
+    end: "+=100",
+    scrub: 2,
+    markers: true,
+  },
+});
+
+b1.from(".b1", {
+  delay: 0.2,
+  // scale: 0,
+  x: -50,
+  transformOrigin: "left",
+},
+"-=.5"
+);
+
+b1.from(".b2", {
+  delay: 0.2,
+  // scale: 0,
+  x: -50,
+  transformOrigin: "left",
+},
+"-=.5"
+);
+
+b1.from(".b3", {
+  delay: 0.2,
+  // scale: 0,
+  x: -50,
+  transformOrigin: "left",
+},
+"-=.5"
+);
+
+b1.from(".b4", {
+  delay: 0.2,
+  // scale: 0,
+  x: -50,
+  transformOrigin: "left",
+},
+"-=.5"
+);
+
+b1.from(".b5", {
+  delay: 0.2,
+  // scale: 0,
+  x: -50,
+  transformOrigin: "left",
+},
+"-=.5"
+);
+
+b1.from(".b6", {
+  delay: 0.2,
+  // scale: 0,
+  x: -50,
+  transformOrigin: "left",
+},
+"-=.5"
+);
+
+b1.from(".b7", {
+  delay: 0.2,
+  // scale: 0,
+  x: -50,
+  transformOrigin: "left",
+},
+"-=.5"
+);
+
+b1.from(".b8", {
+  delay: 0.2,
+  // scale: 0,
+  x: -50,
+  transformOrigin: "left",
+},
+"-=.5"
+);
+
+b1.from(".b9", {
+  delay: 0.2,
+  // scale: 0,
+  x: -50,
+  transformOrigin: "left",
+},
+"-=.5"
+);
+
+
 
 
 
