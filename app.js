@@ -202,7 +202,7 @@ var a1= gsap.timeline({
 a1.from(".aa1", {
   delay: 0.2,
   // scale: 0,
-  x: -50,
+  x: -10,
   transformOrigin: "left",
 },
 "-=.5"
@@ -214,7 +214,7 @@ a1.from(
   {
     delay: 0.2,
     // scale: 0,
-    x: -50,
+    x: -10,
     transformOrigin: "left",
   },
   "-=.5"
@@ -225,7 +225,7 @@ a1.from(
   {
     delay: 0.2,
     // scale: 0,
-    x: -50,
+    x: -10,
     transformOrigin: "left",
   },
   "-=.5"
@@ -236,7 +236,7 @@ a1.from(
   {
     delay: 0.2,
     // scale: 0,
-    x: -50,
+    x: -10,
     transformOrigin: "left",
   },
   "-=.5"
@@ -244,8 +244,8 @@ a1.from(
 
 var b1= gsap.timeline({
   defaults: {
-    duration: 3,
-    ease: "Back.easeOut.config(2)",
+    duration: 5,
+    // ease: "Back.easeOut.config(2)",
     opacity: 0,
   },
   scrollTrigger: {
@@ -260,7 +260,7 @@ var b1= gsap.timeline({
 b1.from(".b1", {
   delay: 0.9,
   // scale: 0,
-  x: -50,
+  x: -10,
   transformOrigin: "left",
 },
 "-=.9"
@@ -269,7 +269,7 @@ b1.from(".b1", {
 b1.from(".b2", {
   delay: 0.9,
   // scale: 0,
-  x: -50,
+  x: -10,
   transformOrigin: "left",
 },
 "-=.9"
@@ -278,7 +278,7 @@ b1.from(".b2", {
 b1.from(".b3", {
   delay: 0.9,
   // scale: 0,
-  x: -50,
+  x: -10,
   transformOrigin: "left",
 },
 "-=.9"
@@ -287,7 +287,7 @@ b1.from(".b3", {
 b1.from(".b4", {
   delay: 0.9,
   // scale: 0,
-  x: -50,
+  x: -10,
   transformOrigin: "left",
 },
 "-=.9"
@@ -296,7 +296,7 @@ b1.from(".b4", {
 b1.from(".b5", {
   delay: 0.9,
   // scale: 0,
-  x: -50,
+  x: -10,
   transformOrigin: "left",
 },
 "-=.9"
@@ -305,7 +305,7 @@ b1.from(".b5", {
 b1.from(".b6", {
   delay: 0.9,
   // scale: 0,
-  x: -50,
+  x: -10,
   transformOrigin: "left",
 },
 "-=.9"
@@ -314,7 +314,7 @@ b1.from(".b6", {
 b1.from(".b7", {
   delay: 0.9,
   // scale: 0,
-  x: -50,
+  x: -10,
   transformOrigin: "left",
 },
 "-=.9"
@@ -323,7 +323,7 @@ b1.from(".b7", {
 b1.from(".b8", {
   delay: 0.9,
   // scale: 0,
-  x: -50,
+  x: -10,
   transformOrigin: "left",
 },
 "-=.9"
@@ -332,7 +332,7 @@ b1.from(".b8", {
 b1.from(".b9", {
   delay: 0.9,
   // scale: 0,
-  x: -50,
+  x: -10,
   transformOrigin: "left",
 },
 "-=.9"
